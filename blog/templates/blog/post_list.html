@@ -1,14 +1,15 @@
 <html>
+<body bgcolor="#C7F5FE">
     <head>
         <title>Ashley Hau</title>
     </head>
     <body>
         <div>
-            <h1><a href="#"><font face = "Times New Romans" color="maroon"> My Blog</font></a></h1>
+            <h1><a href="https://ashleyhau.github.io/portfolio/aboutme.html"><font face = "Times" color="maroon">Ashley Hau</font></a></h1>
         </div>
 
         <div>
-            <p>published: 20.07.2017, 12:00 pm</p>
+           <p>published: 20.07.2017, 12:00 pm</p>
             <h2><a href="#">My first post</a></h2>
             <p>Hi I want to cry because nothing is working.</p>
         </div>
@@ -16,7 +17,13 @@
         <div>
             <p>published: 20.07.2017, 12:00 pm</p>
             <h2><a href="#">My second post</a></h2>
-            <p>Hi I want to cry even more because nothing is working.</p>
+            <p>Hi I want to cry even more because nothing is working.</p> 
+            <div>
+      <h1><a href="/">Django Girls Blog</a></h1>
+  </div>
+  {% for post in posts %}
+      {{ post }}
+  {% endfor %}
         </div>
    </body>
 </html>
